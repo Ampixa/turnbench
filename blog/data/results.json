@@ -1,0 +1,837 @@
+{
+  "created_utc": "2026-11-26T17:02:56.171497+00:00",
+  "public_commit": "9d4f5decc52f746a6e879fe53ccc21e82dbeece4",
+  "metrics": {
+    "ablation_budget": {
+      "value": 0.12,
+      "unit": "fraction",
+      "source": {
+        "path": "internal experiment log: scripts/tb3p/result-eot.json",
+        "selector": [
+          "held_out",
+          2,
+          "budget"
+        ],
+        "sha256": "7362b1007e6004923404cfb307af76679cf0b7b152ce52fdda2ad18ec93f563c",
+        "url": null
+      }
+    },
+    "eot_held_recall_mean": {
+      "value": 0.9827278028336992,
+      "unit": "fraction",
+      "source": {
+        "path": "internal experiment log: scripts/tb3p/result-eot.json",
+        "selector": [
+          "held_out",
+          1,
+          "recall_mean"
+        ],
+        "sha256": "7362b1007e6004923404cfb307af76679cf0b7b152ce52fdda2ad18ec93f563c",
+        "url": "https://github.com/Ampixa/turnbench/blob/9d4f5decc52f746a6e879fe53ccc21e82dbeece4/README.md"
+      }
+    },
+    "int_held_recall_mean": {
+      "value": 0.9855441749383543,
+      "unit": "fraction",
+      "source": {
+        "path": "internal experiment log: scripts/tb7/FROZEN.json",
+        "selector": [
+          "baseline_held_out",
+          "recall_mean"
+        ],
+        "sha256": "62b6e000c84da5b2530da452a64a5ea1b426936a3cde4b30c7680b4c4ddef94b",
+        "url": "https://github.com/Ampixa/turnbench/blob/9d4f5decc52f746a6e879fe53ccc21e82dbeece4/FROZEN.json"
+      }
+    },
+    "eot_held_fpr_mean": {
+      "value": 0.09225399367627696,
+      "unit": "fraction",
+      "source": {
+        "path": "internal experiment log: scripts/tb3p/result-eot.json",
+        "selector": [
+          "held_out",
+          1,
+          "fpr_mean"
+        ],
+        "sha256": "7362b1007e6004923404cfb307af76679cf0b7b152ce52fdda2ad18ec93f563c",
+        "url": "https://github.com/Ampixa/turnbench/blob/9d4f5decc52f746a6e879fe53ccc21e82dbeece4/README.md"
+      }
+    },
+    "int_held_fpr_mean": {
+      "value": 0.09578781894958424,
+      "unit": "fraction",
+      "source": {
+        "path": "internal experiment log: scripts/tb7/FROZEN.json",
+        "selector": [
+          "baseline_held_out",
+          "fpr_mean"
+        ],
+        "sha256": "62b6e000c84da5b2530da452a64a5ea1b426936a3cde4b30c7680b4c4ddef94b",
+        "url": "https://github.com/Ampixa/turnbench/blob/9d4f5decc52f746a6e879fe53ccc21e82dbeece4/FROZEN.json"
+      }
+    },
+    "eot_held_fpr_p975": {
+      "value": 0.13875526123800433,
+      "unit": "fraction",
+      "source": {
+        "path": "internal experiment log: scripts/tb3p/result-eot.json",
+        "selector": [
+          "held_out",
+          1,
+          "fpr_p975"
+        ],
+        "sha256": "7362b1007e6004923404cfb307af76679cf0b7b152ce52fdda2ad18ec93f563c",
+        "url": "https://github.com/Ampixa/turnbench/blob/9d4f5decc52f746a6e879fe53ccc21e82dbeece4/README.md"
+      }
+    },
+    "int_held_fpr_p975": {
+      "value": 0.1488677599203915,
+      "unit": "fraction",
+      "source": {
+        "path": "internal experiment log: scripts/tb7/FROZEN.json",
+        "selector": [
+          "baseline_held_out",
+          "fpr_p975"
+        ],
+        "sha256": "62b6e000c84da5b2530da452a64a5ea1b426936a3cde4b30c7680b4c4ddef94b",
+        "url": "https://github.com/Ampixa/turnbench/blob/9d4f5decc52f746a6e879fe53ccc21e82dbeece4/FROZEN.json"
+      }
+    },
+    "eot_full_recall": {
+      "value": 0.9863445378151261,
+      "unit": "fraction",
+      "source": {
+        "path": "internal experiment log: scripts/tb6/aggregate-results.json",
+        "selector": [
+          "full_dev",
+          "eot",
+          "recall"
+        ],
+        "sha256": "39b117f24111affa61aee25f62752b886f04ac0a29c426735cf623485dd3eda0",
+        "url": "https://github.com/Ampixa/turnbench/blob/9d4f5decc52f746a6e879fe53ccc21e82dbeece4/README.md"
+      }
+    },
+    "eot_full_fpr": {
+      "value": 0.09031044214487301,
+      "unit": "fraction",
+      "source": {
+        "path": "internal experiment log: scripts/tb6/aggregate-results.json",
+        "selector": [
+          "full_dev",
+          "eot",
+          "fpr"
+        ],
+        "sha256": "39b117f24111affa61aee25f62752b886f04ac0a29c426735cf623485dd3eda0",
+        "url": "https://github.com/Ampixa/turnbench/blob/9d4f5decc52f746a6e879fe53ccc21e82dbeece4/README.md"
+      }
+    },
+    "eot_full_tp_fn_fp_tn": {
+      "value": [
+        1878,
+        26,
+        96,
+        967
+      ],
+      "unit": "fraction",
+      "source": {
+        "path": "internal experiment log: scripts/tb6/aggregate-results.json",
+        "selector": [
+          "full_dev",
+          "eot",
+          "tp_fn_fp_tn"
+        ],
+        "sha256": "39b117f24111affa61aee25f62752b886f04ac0a29c426735cf623485dd3eda0",
+        "url": "https://github.com/Ampixa/turnbench/blob/9d4f5decc52f746a6e879fe53ccc21e82dbeece4/README.md"
+      }
+    },
+    "eot_latency_ms": {
+      "value": 657.0000000000107,
+      "unit": "ms",
+      "source": {
+        "path": "internal experiment log: scripts/tb6/aggregate-results.json",
+        "selector": [
+          "full_dev",
+          "eot",
+          "latency_ms",
+          "p50"
+        ],
+        "sha256": "39b117f24111affa61aee25f62752b886f04ac0a29c426735cf623485dd3eda0",
+        "url": "https://github.com/Ampixa/turnbench/blob/9d4f5decc52f746a6e879fe53ccc21e82dbeece4/README.md"
+      }
+    },
+    "int_full_recall": {
+      "value": 0.9913544668587896,
+      "unit": "fraction",
+      "source": {
+        "path": "internal experiment log: scripts/tb6/aggregate-results.json",
+        "selector": [
+          "full_dev",
+          "int",
+          "recall"
+        ],
+        "sha256": "39b117f24111affa61aee25f62752b886f04ac0a29c426735cf623485dd3eda0",
+        "url": "https://github.com/Ampixa/turnbench/blob/9d4f5decc52f746a6e879fe53ccc21e82dbeece4/README.md"
+      }
+    },
+    "int_full_fpr": {
+      "value": 0.09027591749263326,
+      "unit": "fraction",
+      "source": {
+        "path": "internal experiment log: scripts/tb6/aggregate-results.json",
+        "selector": [
+          "full_dev",
+          "int",
+          "fpr"
+        ],
+        "sha256": "39b117f24111affa61aee25f62752b886f04ac0a29c426735cf623485dd3eda0",
+        "url": "https://github.com/Ampixa/turnbench/blob/9d4f5decc52f746a6e879fe53ccc21e82dbeece4/README.md"
+      }
+    },
+    "int_full_tp_fn_fp_tn": {
+      "value": [
+        344,
+        3,
+        337,
+        3396
+      ],
+      "unit": "fraction",
+      "source": {
+        "path": "internal experiment log: scripts/tb6/aggregate-results.json",
+        "selector": [
+          "full_dev",
+          "int",
+          "tp_fn_fp_tn"
+        ],
+        "sha256": "39b117f24111affa61aee25f62752b886f04ac0a29c426735cf623485dd3eda0",
+        "url": "https://github.com/Ampixa/turnbench/blob/9d4f5decc52f746a6e879fe53ccc21e82dbeece4/README.md"
+      }
+    },
+    "int_latency_ms": {
+      "value": 855.0000000000111,
+      "unit": "ms",
+      "source": {
+        "path": "internal experiment log: scripts/tb6/aggregate-results.json",
+        "selector": [
+          "full_dev",
+          "int",
+          "latency_ms",
+          "p50"
+        ],
+        "sha256": "39b117f24111affa61aee25f62752b886f04ac0a29c426735cf623485dd3eda0",
+        "url": "https://github.com/Ampixa/turnbench/blob/9d4f5decc52f746a6e879fe53ccc21e82dbeece4/README.md"
+      }
+    },
+    "eot_ablation_baseline_recall_mean": {
+      "value": 0.9832523102394989,
+      "unit": "fraction",
+      "source": {
+        "path": "internal experiment log: scripts/tb3p/result-eot.json",
+        "selector": [
+          "held_out",
+          2,
+          "recall_mean"
+        ],
+        "sha256": "7362b1007e6004923404cfb307af76679cf0b7b152ce52fdda2ad18ec93f563c",
+        "url": null
+      }
+    },
+    "eot_ablation_baseline_fpr_mean": {
+      "value": 0.10262351605836653,
+      "unit": "fraction",
+      "source": {
+        "path": "internal experiment log: scripts/tb3p/result-eot.json",
+        "selector": [
+          "held_out",
+          2,
+          "fpr_mean"
+        ],
+        "sha256": "7362b1007e6004923404cfb307af76679cf0b7b152ce52fdda2ad18ec93f563c",
+        "url": null
+      }
+    },
+    "eot_ablation_no_confirm_retuned_recall_mean": {
+      "value": 0.9603909146878227,
+      "unit": "fraction",
+      "source": {
+        "path": "internal experiment log: scripts/tb3p/result-eot-no-confirm.json",
+        "selector": [
+          "held_out",
+          2,
+          "recall_mean"
+        ],
+        "sha256": "c0d5ca779099515b5555451504f5101ab96c1da3bac7d71920a33d671e28cb70",
+        "url": null
+      }
+    },
+    "eot_ablation_no_confirm_retuned_fpr_mean": {
+      "value": 0.08561842573914256,
+      "unit": "fraction",
+      "source": {
+        "path": "internal experiment log: scripts/tb3p/result-eot-no-confirm.json",
+        "selector": [
+          "held_out",
+          2,
+          "fpr_mean"
+        ],
+        "sha256": "c0d5ca779099515b5555451504f5101ab96c1da3bac7d71920a33d671e28cb70",
+        "url": null
+      }
+    },
+    "eot_ablation_no_confirm_matched_recall_mean": {
+      "value": 0.9521984404522807,
+      "unit": "fraction",
+      "source": {
+        "path": "internal experiment log: scripts/tb3p/matched-ablations.json",
+        "selector": [
+          "eot-no-confirm",
+          2,
+          "recall_mean"
+        ],
+        "sha256": "3da778fae45963c5b295814a3b599e31f9e9d285c1e4947624bb3186a13063f2",
+        "url": null
+      }
+    },
+    "eot_ablation_no_confirm_matched_fpr_mean": {
+      "value": 0.09942847513970517,
+      "unit": "fraction",
+      "source": {
+        "path": "internal experiment log: scripts/tb3p/matched-ablations.json",
+        "selector": [
+          "eot-no-confirm",
+          2,
+          "fpr_mean"
+        ],
+        "sha256": "3da778fae45963c5b295814a3b599e31f9e9d285c1e4947624bb3186a13063f2",
+        "url": null
+      }
+    },
+    "eot_ablation_no_partner_retuned_recall_mean": {
+      "value": 0.9148461634973215,
+      "unit": "fraction",
+      "source": {
+        "path": "internal experiment log: scripts/tb3p/result-eot-no-partner.json",
+        "selector": [
+          "held_out",
+          2,
+          "recall_mean"
+        ],
+        "sha256": "a3ee26485fbb9aedef00be652df237f99736cc87526c62416ce2aedf8776b6fc",
+        "url": null
+      }
+    },
+    "eot_ablation_no_partner_retuned_fpr_mean": {
+      "value": 0.06207592567666758,
+      "unit": "fraction",
+      "source": {
+        "path": "internal experiment log: scripts/tb3p/result-eot-no-partner.json",
+        "selector": [
+          "held_out",
+          2,
+          "fpr_mean"
+        ],
+        "sha256": "a3ee26485fbb9aedef00be652df237f99736cc87526c62416ce2aedf8776b6fc",
+        "url": null
+      }
+    },
+    "confirmation_matched_delta": {
+      "value": -0.03105386978721805,
+      "unit": "fraction",
+      "source": {
+        "path": "internal experiment log: scripts/tb3p/matched-ablations.json",
+        "selector": [
+          "eot-no-confirm",
+          2,
+          "paired_recall_delta_mean"
+        ],
+        "sha256": "3da778fae45963c5b295814a3b599e31f9e9d285c1e4947624bb3186a13063f2",
+        "url": null
+      }
+    },
+    "int_selected": {
+      "value": 0.9798769451527825,
+      "unit": "fraction",
+      "source": {
+        "path": "internal experiment log: scripts/tb6/aggregate-failure-analysis.json",
+        "selector": [
+          "int-energy",
+          "A_selected_B_recall_mean"
+        ],
+        "sha256": "2383607258acf3b2b4b86511f6a73d674f1f0d91b8c43fbfcec709d7a557cf2c",
+        "url": null
+      }
+    },
+    "int_oracle": {
+      "value": 0.9914961788732163,
+      "unit": "fraction",
+      "source": {
+        "path": "internal experiment log: scripts/tb6/aggregate-failure-analysis.json",
+        "selector": [
+          "int-energy",
+          "full_dev_best_B_recall_mean"
+        ],
+        "sha256": "2383607258acf3b2b4b86511f6a73d674f1f0d91b8c43fbfcec709d7a557cf2c",
+        "url": null
+      }
+    },
+    "int_selection_gap": {
+      "value": 0.011619233720433851,
+      "unit": "fraction",
+      "source": {
+        "path": "internal experiment log: scripts/tb6/aggregate-failure-analysis.json",
+        "selector": [
+          "int-energy",
+          "selection_gap_mean"
+        ],
+        "sha256": "2383607258acf3b2b4b86511f6a73d674f1f0d91b8c43fbfcec709d7a557cf2c",
+        "url": null
+      }
+    },
+    "residual_miss_appearances": {
+      "value": 2535,
+      "unit": "count",
+      "source": {
+        "path": "internal experiment log: scripts/tb7/aggregate-diagnosis.json",
+        "selector": [
+          "weighted_B_misses"
+        ],
+        "sha256": "3da339428173c691bc4082fc536b251131488a1e8b8f062e6715640ac49d8f27",
+        "url": null
+      }
+    },
+    "residual_unique": {
+      "value": 53,
+      "unit": "count",
+      "source": {
+        "path": "internal experiment log: scripts/tb7/aggregate-diagnosis.json",
+        "selector": [
+          "unique_positives_missed"
+        ],
+        "sha256": "3da339428173c691bc4082fc536b251131488a1e8b8f062e6715640ac49d8f27",
+        "url": null
+      }
+    },
+    "residual_late": {
+      "value": 1611,
+      "unit": "count",
+      "source": {
+        "path": "internal experiment log: scripts/tb7/aggregate-diagnosis.json",
+        "selector": [
+          "causes",
+          "committed after window"
+        ],
+        "sha256": "3da339428173c691bc4082fc536b251131488a1e8b8f062e6715640ac49d8f27",
+        "url": null
+      }
+    },
+    "residual_merged": {
+      "value": 629,
+      "unit": "count",
+      "source": {
+        "path": "internal experiment log: scripts/tb7/aggregate-diagnosis.json",
+        "selector": [
+          "causes",
+          "VAD merged with prior unit"
+        ],
+        "sha256": "3da339428173c691bc4082fc536b251131488a1e8b8f062e6715640ac49d8f27",
+        "url": null
+      }
+    },
+    "long_overlap_misses": {
+      "value": {
+        "committed after window|overlap-onset|>=3": 1170,
+        "VAD merged with prior unit|overlap-onset|>=3": 512,
+        "committed after window|gap-onset|>=3": 858,
+        "VAD merged with prior unit|overlap-onset|1.3-3": 2,
+        "detected but suppressed/excluded/competition|gap-onset|1.3-3": 116,
+        "detected but suppressed/excluded/competition|overlap-onset|>=3": 326,
+        "detected but suppressed/excluded/competition|gap-onset|0.32-0.8": 155,
+        "committed after window|overlap-onset|1.3-3": 20,
+        "detected but suppressed/excluded/competition|gap-onset|>=3": 265,
+        "detected but suppressed/excluded/competition|overlap-onset|1.3-3": 99,
+        "detected but suppressed/excluded/competition|gap-onset|0.8-1.3": 28,
+        "committed after window|gap-onset|1.3-3": 8
+      },
+      "unit": "count table",
+      "source": {
+        "path": "internal experiment log: scripts/tb6/aggregate-failure-analysis.json",
+        "selector": [
+          "int-energy",
+          "miss_crosstab"
+        ],
+        "sha256": "2383607258acf3b2b4b86511f6a73d674f1f0d91b8c43fbfcec709d7a557cf2c",
+        "url": null
+      }
+    },
+    "learned_trigger": {
+      "value": 0.9748187104582646,
+      "unit": "fraction",
+      "source": {
+        "path": "internal experiment log: scripts/tb6/aggregate-results.json",
+        "selector": [
+          "results",
+          "tb5-argmax-0.10",
+          "held_out",
+          "recall_mean"
+        ],
+        "sha256": "39b117f24111affa61aee25f62752b886f04ac0a29c426735cf623485dd3eda0",
+        "url": null
+      }
+    },
+    "stacker": {
+      "value": 0.9825162286501449,
+      "unit": "fraction",
+      "source": {
+        "path": "internal experiment log: scripts/tb6/aggregate-results.json",
+        "selector": [
+          "results",
+          "logistic-both-smoothed-0.12",
+          "held_out",
+          "recall_mean"
+        ],
+        "sha256": "39b117f24111affa61aee25f62752b886f04ac0a29c426735cf623485dd3eda0",
+        "url": null
+      }
+    },
+    "finetuned": {
+      "value": 0.9864359347741718,
+      "unit": "fraction",
+      "source": {
+        "path": "internal experiment log: scripts/tb11/aggregate-dev-results.json",
+        "selector": [
+          "combined-or-0.12",
+          "held_out",
+          "recall_mean"
+        ],
+        "sha256": "8916550a097909a71d1c2dc1a527f540ce489248ac627840a01f8ee6b1ce9dc4",
+        "url": null
+      }
+    },
+    "finetuned_tail_fpr": {
+      "value": 0.15329393617617432,
+      "unit": "fraction",
+      "source": {
+        "path": "internal experiment log: scripts/tb11/aggregate-dev-results.json",
+        "selector": [
+          "combined-or-0.12",
+          "held_out",
+          "fpr_p975"
+        ],
+        "sha256": "8916550a097909a71d1c2dc1a527f540ce489248ac627840a01f8ee6b1ce9dc4",
+        "url": null
+      }
+    },
+    "finetuned_gain": {
+      "value": 0.0008917598358173618,
+      "unit": "fraction",
+      "source": {
+        "path": "internal experiment log: scripts/tb11/aggregate-dev-results.json",
+        "selector": [
+          "combined-or-0.12",
+          "held_out",
+          "paired_gain_mean"
+        ],
+        "sha256": "8916550a097909a71d1c2dc1a527f540ce489248ac627840a01f8ee6b1ce9dc4",
+        "url": null
+      }
+    },
+    "semantic_v1_kappa": {
+      "value": 0.063846,
+      "unit": "Cohen kappa",
+      "source": {
+        "path": "internal experiment log: notes/tb3a.md",
+        "verified_excerpt": "| HOLD, once | 0.063846 | 0.173121 | 0.328727 |",
+        "sha256": "e35387499da3aad268388e988f991f561f8282b0db0ab665269e9fd4880cc7af",
+        "url": null
+      }
+    },
+    "semantic_v2_kappa": {
+      "value": 0.2974,
+      "unit": "Cohen kappa",
+      "source": {
+        "path": "internal experiment log: notes/tb4.md",
+        "verified_excerpt": "| Strict INT/BC Cohen κ | 0.2974 [0.2511, 0.3454] | 0.6 | FAIL |",
+        "sha256": "87b533b7b72894bfa1b99440db1384f22875e8346459c50e584fcf170fb73179",
+        "url": null
+      }
+    },
+    "external_classifier": {
+      "value": 0.942363,
+      "unit": "fraction",
+      "source": {
+        "path": "internal experiment log: notes/tb8.md",
+        "verified_excerpt": "Primary dev INT recall/FPR is **0.942363 / 0.044736**",
+        "sha256": "a054b97f6adb627ab4cea7d2f77e7128b0972d75cb6a717178ad2252bd7e6519",
+        "url": null
+      }
+    },
+    "pretrain_hours": {
+      "value": 1000.245022,
+      "unit": "hours",
+      "source": {
+        "path": "internal experiment log: notes/tb5.md",
+        "verified_excerpt": "1,602 conversations / 1000.245022 hours",
+        "sha256": "bdeb31933a29454f3c3f9c3ca3cd43d80c16ddfe7a168759ac67c29693aec731",
+        "url": null
+      }
+    },
+    "external_hours": {
+      "value": 104.940095,
+      "unit": "hours",
+      "source": {
+        "path": "internal experiment log: notes/tb8.md",
+        "verified_excerpt": "420 conversations / 104.940095 hours",
+        "sha256": "a054b97f6adb627ab4cea7d2f77e7128b0972d75cb6a717178ad2252bd7e6519",
+        "url": null
+      }
+    },
+    "splits": {
+      "value": 1000,
+      "unit": "count",
+      "source": {
+        "path": "internal experiment log: notes/tb7.md",
+        "verified_excerpt": "Each of1000 exact seed731 A19/B19 splits",
+        "sha256": "618349f5bb73087f29e36e173825f089533c4cc27bdb4ed81da6426f540e694b",
+        "url": null
+      }
+    },
+    "split_half": {
+      "value": 19,
+      "unit": "conversations",
+      "source": {
+        "path": "https://github.com/Ampixa/turnbench/blob/main/README.md",
+        "verified_excerpt": "parameters chosen on 19 random dev conversations",
+        "sha256": "832fa6f1669cfb3af41dd3cf3ec63028374980bb0b2d9b3f3da3de74c6ae7d3d",
+        "url": "https://github.com/Ampixa/turnbench/blob/9d4f5decc52f746a6e879fe53ccc21e82dbeece4/README.md"
+      }
+    },
+    "dev_conversations": {
+      "value": 38,
+      "unit": "conversations",
+      "source": {
+        "path": "https://github.com/Ampixa/turnbench/blob/main/README.md",
+        "verified_excerpt": "all 38 conversations",
+        "sha256": "832fa6f1669cfb3af41dd3cf3ec63028374980bb0b2d9b3f3da3de74c6ae7d3d",
+        "url": "https://github.com/Ampixa/turnbench/blob/9d4f5decc52f746a6e879fe53ccc21e82dbeece4/README.md"
+      }
+    },
+    "seed": {
+      "value": 731,
+      "unit": "seed",
+      "source": {
+        "path": "https://github.com/Ampixa/turnbench/blob/main/README.md",
+        "verified_excerpt": "seed 731",
+        "sha256": "832fa6f1669cfb3af41dd3cf3ec63028374980bb0b2d9b3f3da3de74c6ae7d3d",
+        "url": "https://github.com/Ampixa/turnbench/blob/9d4f5decc52f746a6e879fe53ccc21e82dbeece4/README.md"
+      }
+    },
+    "frame_ms": {
+      "value": 32,
+      "unit": "as named",
+      "source": {
+        "path": "https://github.com/Ampixa/turnbench/blob/main/README.md",
+        "verified_excerpt": "512 samples = 32 ms",
+        "sha256": "832fa6f1669cfb3af41dd3cf3ec63028374980bb0b2d9b3f3da3de74c6ae7d3d",
+        "url": "https://github.com/Ampixa/turnbench/blob/9d4f5decc52f746a6e879fe53ccc21e82dbeece4/README.md"
+      }
+    },
+    "fir_taps": {
+      "value": 63,
+      "unit": "as named",
+      "source": {
+        "path": "https://github.com/Ampixa/turnbench/blob/main/README.md",
+        "verified_excerpt": "63-tap FIR",
+        "sha256": "832fa6f1669cfb3af41dd3cf3ec63028374980bb0b2d9b3f3da3de74c6ae7d3d",
+        "url": "https://github.com/Ampixa/turnbench/blob/9d4f5decc52f746a6e879fe53ccc21e82dbeece4/README.md"
+      }
+    },
+    "native_khz": {
+      "value": 48,
+      "unit": "as named",
+      "source": {
+        "path": "https://github.com/Ampixa/turnbench/blob/main/README.md",
+        "verified_excerpt": "48 kHz audio",
+        "sha256": "832fa6f1669cfb3af41dd3cf3ec63028374980bb0b2d9b3f3da3de74c6ae7d3d",
+        "url": "https://github.com/Ampixa/turnbench/blob/9d4f5decc52f746a6e879fe53ccc21e82dbeece4/README.md"
+      }
+    },
+    "input_khz": {
+      "value": 16,
+      "unit": "as named",
+      "source": {
+        "path": "https://github.com/Ampixa/turnbench/blob/main/README.md",
+        "verified_excerpt": "decimated to 16 kHz",
+        "sha256": "832fa6f1669cfb3af41dd3cf3ec63028374980bb0b2d9b3f3da3de74c6ae7d3d",
+        "url": "https://github.com/Ampixa/turnbench/blob/9d4f5decc52f746a6e879fe53ccc21e82dbeece4/README.md"
+      }
+    },
+    "scoring_window_s": {
+      "value": 3,
+      "unit": "seconds",
+      "source": {
+        "path": "internal experiment log: notes/tb3p.md",
+        "verified_excerpt": "t+3",
+        "sha256": "094fa9558d046170570514ba97532901b92d054126c906a9af30cf9e9a684041",
+        "url": "https://github.com/SesameAILabs/turnbench/blob/38a6f874322430cb3ca71d8a52aa1e636e88bad8/turnbench/score.py"
+      }
+    },
+    "pre_tolerance_s": {
+      "value": 0.25,
+      "unit": "seconds",
+      "source": {
+        "path": "internal experiment log: notes/tb3p.md",
+        "verified_excerpt": "t-0.25",
+        "sha256": "094fa9558d046170570514ba97532901b92d054126c906a9af30cf9e9a684041",
+        "url": "https://github.com/SesameAILabs/turnbench/blob/38a6f874322430cb3ca71d8a52aa1e636e88bad8/turnbench/score.py"
+      }
+    },
+    "confirmation_s": {
+      "value": 2.9,
+      "unit": "seconds",
+      "source": {
+        "path": "https://github.com/Ampixa/turnbench/blob/main/parameters.json",
+        "selector": [
+          "eot",
+          6
+        ],
+        "sha256": "0cb1a77696ff2a00ac9a62bad96cea4a3f5b35b29eb76a93db2d19ee1e813f82",
+        "url": "https://github.com/Ampixa/turnbench/blob/9d4f5decc52f746a6e879fe53ccc21e82dbeece4/parameters.json"
+      }
+    },
+    "minimum_wait_s": {
+      "value": 0.608,
+      "unit": "seconds",
+      "source": {
+        "path": "https://github.com/Ampixa/turnbench/blob/main/parameters.json",
+        "selector": [
+          "eot",
+          3
+        ],
+        "sha256": "0cb1a77696ff2a00ac9a62bad96cea4a3f5b35b29eb76a93db2d19ee1e813f82",
+        "url": "https://github.com/Ampixa/turnbench/blob/9d4f5decc52f746a6e879fe53ccc21e82dbeece4/parameters.json"
+      }
+    },
+    "Kuroko_recall": {
+      "value": 0.983,
+      "unit": "fraction",
+      "source": {
+        "url": "https://turnbench.sesame.com/",
+        "read_date_utc": "2026-11-26",
+        "path": "internal experiment log: scripts/tb12/references/leaderboard.html",
+        "sha256": "506a7fd95c3b44812a9986bb5d86203fb7aa33dc9c6631b364224764df81c80d",
+        "verified_excerpt": "Kuroko † 0.983 0.065 619 ms 2 OpenYap Turn † 0.978 0.077 298 ms 3 p99lab turn-1-mini † 0.975 0.075 595 ms 4 Zero Runtime Echo Omni Duplex † 0.970 0.072 768 ms 5 Joveo BarnOwl † 0.969 0.088 549 ms 6 Vox Maru v1 † 0.960 0.072 548 ms 7 Neosapience Nunch"
+      },
+      "split": "hidden test; EOT"
+    },
+    "Kuroko_fpr": {
+      "value": 0.065,
+      "unit": "fraction",
+      "source": {
+        "url": "https://turnbench.sesame.com/",
+        "read_date_utc": "2026-11-26",
+        "path": "internal experiment log: scripts/tb12/references/leaderboard.html",
+        "sha256": "506a7fd95c3b44812a9986bb5d86203fb7aa33dc9c6631b364224764df81c80d",
+        "verified_excerpt": "Kuroko † 0.983 0.065 619 ms 2 OpenYap Turn † 0.978 0.077 298 ms 3 p99lab turn-1-mini † 0.975 0.075 595 ms 4 Zero Runtime Echo Omni Duplex † 0.970 0.072 768 ms 5 Joveo BarnOwl † 0.969 0.088 549 ms 6 Vox Maru v1 † 0.960 0.072 548 ms 7 Neosapience Nunch"
+      },
+      "split": "hidden test; EOT"
+    },
+    "Kuroko_latency_ms": {
+      "value": 619,
+      "unit": "ms",
+      "source": {
+        "url": "https://turnbench.sesame.com/",
+        "read_date_utc": "2026-11-26",
+        "path": "internal experiment log: scripts/tb12/references/leaderboard.html",
+        "sha256": "506a7fd95c3b44812a9986bb5d86203fb7aa33dc9c6631b364224764df81c80d",
+        "verified_excerpt": "Kuroko † 0.983 0.065 619 ms 2 OpenYap Turn † 0.978 0.077 298 ms 3 p99lab turn-1-mini † 0.975 0.075 595 ms 4 Zero Runtime Echo Omni Duplex † 0.970 0.072 768 ms 5 Joveo BarnOwl † 0.969 0.088 549 ms 6 Vox Maru v1 † 0.960 0.072 548 ms 7 Neosapience Nunch"
+      },
+      "split": "hidden test; EOT"
+    },
+    "p99lab turn-1-mini_recall": {
+      "value": 0.975,
+      "unit": "fraction",
+      "source": {
+        "url": "https://turnbench.sesame.com/",
+        "read_date_utc": "2026-11-26",
+        "path": "internal experiment log: scripts/tb12/references/leaderboard.html",
+        "sha256": "506a7fd95c3b44812a9986bb5d86203fb7aa33dc9c6631b364224764df81c80d",
+        "verified_excerpt": "p99lab turn-1-mini † 0.975 0.075 595 ms 4 Zero Runtime Echo Omni Duplex † 0.970 0.072 768 ms 5 Joveo BarnOwl † 0.969 0.088 549 ms 6 Vox Maru v1 † 0.960 0.072 548 ms 7 Neosapience Nunchi v2 † 0.959 0.064 254 ms 8 Flam flux-duplex † 0.954 0.060 382 ms "
+      },
+      "split": "hidden test; EOT"
+    },
+    "p99lab turn-1-mini_fpr": {
+      "value": 0.075,
+      "unit": "fraction",
+      "source": {
+        "url": "https://turnbench.sesame.com/",
+        "read_date_utc": "2026-11-26",
+        "path": "internal experiment log: scripts/tb12/references/leaderboard.html",
+        "sha256": "506a7fd95c3b44812a9986bb5d86203fb7aa33dc9c6631b364224764df81c80d",
+        "verified_excerpt": "p99lab turn-1-mini † 0.975 0.075 595 ms 4 Zero Runtime Echo Omni Duplex † 0.970 0.072 768 ms 5 Joveo BarnOwl † 0.969 0.088 549 ms 6 Vox Maru v1 † 0.960 0.072 548 ms 7 Neosapience Nunchi v2 † 0.959 0.064 254 ms 8 Flam flux-duplex † 0.954 0.060 382 ms "
+      },
+      "split": "hidden test; EOT"
+    },
+    "p99lab turn-1-mini_latency_ms": {
+      "value": 595,
+      "unit": "ms",
+      "source": {
+        "url": "https://turnbench.sesame.com/",
+        "read_date_utc": "2026-11-26",
+        "path": "internal experiment log: scripts/tb12/references/leaderboard.html",
+        "sha256": "506a7fd95c3b44812a9986bb5d86203fb7aa33dc9c6631b364224764df81c80d",
+        "verified_excerpt": "p99lab turn-1-mini † 0.975 0.075 595 ms 4 Zero Runtime Echo Omni Duplex † 0.970 0.072 768 ms 5 Joveo BarnOwl † 0.969 0.088 549 ms 6 Vox Maru v1 † 0.960 0.072 548 ms 7 Neosapience Nunchi v2 † 0.959 0.064 254 ms 8 Flam flux-duplex † 0.954 0.060 382 ms "
+      },
+      "split": "hidden test; EOT"
+    },
+    "fpr_ceiling": {
+      "value": 0.15,
+      "unit": "fraction",
+      "source": {
+        "url": "https://turnbench.sesame.com/",
+        "path": "internal experiment log: scripts/tb12/references/leaderboard.html",
+        "sha256": "506a7fd95c3b44812a9986bb5d86203fb7aa33dc9c6631b364224764df81c80d",
+        "verified_excerpt": "above 0.15 does not qualify"
+      }
+    }
+  },
+  "diagram": {
+    "label": "Synthetic timing diagram; not a dev example or measured data",
+    "anchor_s": 0,
+    "partner_onset_s": 0.4,
+    "first_emission_s": 0.704,
+    "confirmation_s": 2.9,
+    "window_end_s": 3,
+    "source": "Constructed example of frozen policy timing and pinned scorer window; no dataset rows used."
+  },
+  "palette": {
+    "paper": "#F7F6F3",
+    "ink": "#111111",
+    "ours": "#DC143C",
+    "others": "#5E5A57",
+    "pale": "#F6D3DA",
+    "tint": "#FCEBEE"
+  },
+  "precision_note": "Exact aggregate floating values retained; displayed values rounded, counts exact. Split percentiles are not independent confidence intervals.",
+  "reproduction_commands": {
+    "value": "pip install numpy==2.2.6 scipy==1.18.1 numba==0.61.2 onnxruntime==1.32.0 pyarrow==26.0.1 soundfile==0.14.0\npip download --no-deps silero-vad==6.2.3 && unzip -o -j silero_vad-6.2.3-py3-none-any.whl silero_vad/data/silero_vad.onnx\n# sha256 must be 1a153a22f4509e292a94e67d6f9b85e8deb25b4988682b7e174c65279d8788e3\npython inference.py --split dev --data <dir with the 3 dev parquet shards> \\\n  --model silero_vad.onnx --output predictions-dev.json\n",
+    "source": {
+      "path": "https://github.com/Ampixa/turnbench/blob/main/README.md",
+      "sha256": "832fa6f1669cfb3af41dd3cf3ec63028374980bb0b2d9b3f3da3de74c6ae7d3d",
+      "url": "https://github.com/Ampixa/turnbench/blob/9d4f5decc52f746a6e879fe53ccc21e82dbeece4/README.md"
+    }
+  },
+  "derived_metrics": {
+    "confirmation_loss_points": {
+      "value": 3.1053869787218047,
+      "inputs": [
+        "confirmation_matched_delta"
+      ]
+    },
+    "confirmation_retuned_loss_points": {
+      "value": 2.286139555167621,
+      "inputs": [
+        "eot_ablation_baseline_recall_mean",
+        "eot_ablation_no_confirm_retuned_recall_mean"
+      ]
+    }
+  }
+}
