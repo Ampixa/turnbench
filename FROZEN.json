@@ -1,0 +1,111 @@
+{
+  "utc": "2026-11-26T04:01:49.660498+00:00",
+  "system": "tb6-energy-smoothed-0.12",
+  "extension_pass": false,
+  "results": {
+    "0.10": {
+      "held_out": {
+        "recall_mean": 0.978967889512418,
+        "recall_p025": 0.925444770436031,
+        "recall_p975": 1.0,
+        "fpr_mean": 0.090219017777901,
+        "fpr_p025": 0.04497486562802066,
+        "fpr_p975": 0.13708623042488394,
+        "fraction_fpr_above_015": 0.011,
+        "paired_gain_mean": -0.00657628542593652,
+        "paired_gain_p025": -0.04707282913165271,
+        "paired_gain_p975": 0.010653239301936358,
+        "passes": false
+      },
+      "full_base": [
+        0.3,
+        0.1,
+        0.32,
+        0.8,
+        1.0,
+        1.0,
+        0.7,
+        0.01,
+        1.0
+      ],
+      "full_extra": [
+        -1.0,
+        0.0,
+        0.0
+      ],
+      "full_tp_fn_fp_tn": [
+        344,
+        3,
+        337,
+        3396
+      ]
+    },
+    "0.12": {
+      "held_out": {
+        "recall_mean": 0.9833983280348434,
+        "recall_p025": 0.9494364244062011,
+        "recall_p975": 1.0,
+        "fpr_mean": 0.09592063921132996,
+        "fpr_p025": 0.06466527804067797,
+        "fpr_p975": 0.1488677599203915,
+        "fraction_fpr_above_015": 0.022,
+        "paired_gain_mean": -0.0021458469035109157,
+        "paired_gain_p025": -0.023543586109142478,
+        "paired_gain_p975": 0.0,
+        "passes": false
+      },
+      "full_base": [
+        0.3,
+        0.1,
+        0.32,
+        0.8,
+        1.0,
+        1.0,
+        0.7,
+        0.01,
+        1.0
+      ],
+      "full_extra": [
+        -1.0,
+        0.0,
+        0.0
+      ],
+      "full_tp_fn_fp_tn": [
+        344,
+        3,
+        337,
+        3396
+      ]
+    }
+  },
+  "baseline_held_out": {
+    "recall_mean": 0.9855441749383543,
+    "recall_p025": 0.9536983204134367,
+    "recall_p975": 1.0,
+    "fpr_mean": 0.09578781894958424,
+    "fpr_p025": 0.06466527804067797,
+    "fpr_p975": 0.1488677599203915,
+    "fraction_fpr_above_015": 0.023
+  },
+  "expected_full_dev": {
+    "eot": [
+      1878,
+      26,
+      96,
+      967
+    ],
+    "int": [
+      344,
+      3,
+      337,
+      3396
+    ]
+  },
+  "pinned_conversation_audits": 3990,
+  "policy_prefix_checks": 945,
+  "registration_sha256": "06ce757d49c071a0d1a6afc192925933079329ac315fe2e823789c4c9f06504b",
+  "code_sha256": "2ac436c08fbc6913ac75cdfb2a63807b3e39bd4113135093a2a6e2fc144dab52",
+  "parameters_sha256": "0cb1a77696ff2a00ac9a62bad96cea4a3f5b35b29eb76a93db2d19ee1e813f82",
+  "scorer_commit": "38a6f874322430cb3ca71d8a52aa1e636e88bad8",
+  "seconds": 19.883329323027283
+}
